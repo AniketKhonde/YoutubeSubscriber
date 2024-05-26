@@ -1,0 +1,44 @@
+# Node.js modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Coverage reports
+coverage/
+
+# npm debug file
+npm-debug.log*
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variables file
+.env
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Mocha test output
+mochawesome-report/
