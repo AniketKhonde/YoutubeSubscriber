@@ -6,7 +6,7 @@ const cors = require('cors');
 // Middleware to parse JSON bodies
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, '../public')));
 app.use(cors());
 // Routes
 app.get('/subscribers', async (req, res) => {
