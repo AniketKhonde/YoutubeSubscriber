@@ -42,7 +42,7 @@
             }
 
             try {
-                const response = await fetch(`http://localhost:3000/subscribers/${id}`);
+                const response = await fetch(`/subscribers/${id}`);
                 const data = await response.json();
                 openNewPageWithData(data);
             } catch (error) {
