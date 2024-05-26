@@ -1,13 +1,13 @@
 const express = require('express');
 const Subscriber = require('./models/subscribers');
-const path = require('path');
+// const path = require('path');
 const app = express();
 const cors = require('cors');
 
 // Middleware to parse JSON bodies
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(express.static(path.join(__dirname, '../public')));
+// app.use(express.static(path.join(__dirname, '../public')));
 app.use(cors());
 // Routes
 app.get('/api/subscribers', async (req, res) => {
