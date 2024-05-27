@@ -15,8 +15,8 @@
     <h1>Get YouTube Subscriber</h1>
     <p>Click on the links below to fetch subscriber data:</p>
     <ul>
-        <li><a href="#" onclick="fetchSubscriberData('http://localhost:3000/api/subscribers')">Fetch All Subscribers</a></li>
-        <li><a href="#" onclick="fetchSubscriberData('http://localhost:3000/api/subscribers/names')">Fetch Subscriber Names</a></li>
+        <li><a href="#" onclick="fetchSubscriberData('https://youtubesubscriber-tt96.onrender.com/api/subscribers')">Fetch All Subscribers</a></li>
+        <li><a href="#" onclick="fetchSubscriberData('https://youtubesubscriber-tt96.onrender.com/api/subscribers/names')">Fetch Subscriber Names</a></li>
     </ul>
     <p>Enter ID below and press Enter to fetch subscriber data:</p>
     <input type="text" id="subscriberId" placeholder="Enter ID">
@@ -42,7 +42,7 @@
             }
 
             try {
-                const response = await fetch(`http://localhost:3000/api/subscribers/${id}`);
+                const response = await fetch(`https://youtubesubscriber-tt96.onrender.com/api/subscribers/${id}`);
                 const data = await response.json();
                 openNewPageWithData(data);
             } catch (error) {
