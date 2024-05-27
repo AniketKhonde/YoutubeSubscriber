@@ -12,9 +12,9 @@ This project is a simple backend assignment that implements a RESTful API for ma
 
 - Run `node index.js` to start the server.
 - Access the following endpoints:
-  - `GET http://localhost:3000/subscribers`: Response with an array of subscribers (an object).
-  - `GET http://localhost:3000/subscribers/names`: Response with an array of subscribers (an object with only two fields: name and subscribedChannel).
-  - `GET http://localhost:3000/subscribers/:id`: Response with a subscriber (an object) with the given id. If the id does not match, response with status code 400 and an error message ({ message: error.message }).
+  - `GET https://youtubesubscriber-tt96.onrender.com/api/subscribers`: Response with an array of subscribers (an object).
+  - `GET https://youtubesubscriber-tt96.onrender.com/api/subscribers/names`: Response with an array of subscribers (an object with only two fields: name and subscribedChannel).
+  - `GET  https://youtubesubscriber-tt96.onrender.com/api/:id`: Response with a subscriber (an object) with the given id. If the id does not match, response with status code 400 and an error message ({ message: error.message }).
 
 ## Structure
 
